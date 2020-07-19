@@ -19,7 +19,7 @@
 // function div(x,y){
 //     console.log(typeof x);//string
 //     console.log(typeof y);//string
-//     let result = x - y;
+//     let result = x - y;// implicit conversion
 //     console.log(typeof result);// number {except + operator all the string will be implicitly converted to number}
 // }
 // div(a,b);
