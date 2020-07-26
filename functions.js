@@ -3,6 +3,7 @@
 /*
 1.Function declaration
 2.Function expressions
+3. Arrow Functions
 */
 
 // 1. Function declartion
@@ -72,3 +73,23 @@ Function Expression :a fucntion , created inside an expression or inside another
 // let avg = avgAge(result);
 // let resultAvg = avgAge(ageSum(20, 30));
 // console.log("Total Age average", resultAvg);
+
+// Arrow Function
+
+// let sum = function(a, b) {
+//   console.log("Sum function:", a + b);
+// };
+
+// let sumArrows = a => {
+//   console.log("Sum:", a);
+// };
+
+// sum(10, 20);
+// sumArrows(10);
+
+// let age = 12;
+
+// let welcome =
+//   age < 20 ? () => console.log("Hello boy") : () => console.log("Hello Uncle");
+
+// welcome();
